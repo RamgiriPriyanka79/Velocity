@@ -51,3 +51,32 @@ public class Reverseofstring {
 		
 		
 	}
+
+
+   class Armstrongnumber   //Program of Armstrong number
+{
+
+public static void main (String args[])
+  {
+   int num =153;
+   int rev=num;
+   int r=0;
+   int cube=0;
+   
+ while (num>0)
+  { 
+   int r=num%10;
+      num=num/10;
+      cube=(r*r*r)+cube;
+   
+      if(num==rev)
+           {
+             System.out.println("number is armstrong"+rev);
+            }
+       else
+            {
+             System.out.println("number is not armstrong");
+             }
+     }
+  }
+}
